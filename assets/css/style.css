@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Pridi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&display=swap");
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 6px 130px;
+}
+header .burger_icon {
+  display: none;
+}
+header .header_logo_title {
+  column-gap: 14px;
+}
+header .header_logo_title span {
+  color: #fa793c;
+  font-family: Pridi;
+  font-size: 18px;
+  font-weight: 400;
+}
+header .nav_user {
+  column-gap: 40px;
+}
+header .nav_user .header_ul {
+  column-gap: 32px;
+}
+header .nav_user .header_link {
+  color: #000;
+  font-family: ABeeZee;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  transition: 0.2s;
+}
+header .nav_user .header_link:hover {
+  color: #fa793c;
+}
+header .nav_user .active_link {
+  color: #fa793c;
+}
+header .nav_user .user_link {
+  color: black;
+  transition: 0.2s;
+}
+header .nav_user .user_link:hover {
+  color: #fa793c;
+}
+
+.section1 {
+  background-image: url(../../images/Georgia.jpg);
+  background-repeat: no-repeat;
+  padding-inline: 130px;
+  height: 600px;
+}
+.section1 h2 {
+  color: #eb4b01;
+  font-family: Kanit;
+  font-size: 90px;
+  font-weight: 400;
+  line-height: 75px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.section1 p {
+  font-family: Kanit;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 40px;
+  text-align: center;
+}
+
+.section2 {
+  padding: 130px;
+}
+.section2 .section2_title {
+  color: #000;
+  font-family: Kanit;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 45px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+.section2 .section2_cards {
+  column-gap: 22px;
+}
+.section2 .section2_cards .section2_card {
+  border: 1px solid black;
+  transition: 0.7s;
+}
+.section2 .section2_cards .section2_card:hover {
+  transform: scale(1.03);
+  border-radius: 15px;
+}
+.section2 .section2_cards .section2_card .card_content {
+  padding: 16px 15px;
+}
+.section2 .section2_cards .section2_card .card_content h4 {
+  color: #000;
+  font-family: Kanit;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+}
+.section2 .section2_cards .section2_card .card_content .section2_card_text {
+  color: #000;
+  font-family: Kanit;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 8px 0 24px;
+}
+.section2 .section2_cards .section2_card .section2_card_img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  transition: 0.7s;
+}
+.section2 .section2_cards .section2_card .section2_card_img:hover {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.section2 .time_container {
+  column-gap: 10px;
+}
+.section2 .time_container p {
+  color: #000;
+  font-family: Kanit;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.section3 {
+  padding-inline: 130px;
+}
+.section3 .section3_cards {
+  column-gap: 20px;
+}
+.section3 .section3_cards .section3_card_left {
+  width: 780px;
+  height: 400px;
+  background-image: url(../../images/photograph1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-inline: 37px;
+  transition: 0.7s;
+}
+.section3 .section3_cards .section3_card_left:hover {
+  transform: scale(1.03);
+  filter: grayscale(50%);
+  border-radius: 50%;
+}
+.section3 .section3_cards .section3_card_left h2 {
+  color: #fff;
+  font-family: Kanit;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px;
+  margin-bottom: 16px;
+}
+.section3 .section3_cards .section3_card_left p {
+  color: #fff;
+  font-family: Kanit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.section3 .section3_cards .section3_card_right {
+  width: 380px;
+  flex-direction: column;
+}
+.section3 .section3_cards .section3_card_right .right_side_img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  transition: 0.7s;
+}
+.section3 .section3_cards .section3_card_right .right_side_img:hover {
+  transform: scale(1.03);
+  filter: grayscale(50%);
+}
+.section3 form {
+  max-width: 350px;
+  margin: auto;
+}
+.section3 form h5 {
+  font-family: ABeeZee;
+  font-weight: 600;
+}
+.section3 form input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 1px solid #fa793c;
+  border-radius: 5px;
+}
+.section3 form button {
+  background-color: #fa793c;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+footer {
+  margin-top: 110px;
+  padding-block: 15px;
+  background-color: black;
+  width: 100%;
+}
+footer .foot_content {
+  column-gap: 14px;
+}
+footer .foot_text {
+  color: #fff;
+  font-family: Pridi;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+@media (max-width: 1025px) {
+  header,
+  .section1,
+  .section2,
+  .section3 {
+    padding-inline: 92px;
+  }
+  .section1 h2 {
+    font-size: 60px;
+  }
+  .section1 p {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .section2 .section2_cards {
+    flex-direction: column;
+    row-gap: 15px;
+  }
+  .section3 .section3_cards {
+    flex-direction: column;
+    row-gap: 15px;
+  }
+  .section3 .section3_cards .section3_card_left {
+    width: 100%;
+    height: 359px;
+  }
+  .section3 .section3_cards .section3_card_right {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .section3 .section3_cards .section3_card_right .right_side_img {
+    width: 48%;
+  }
+}
+@media (max-width: 835px) {
+  header {
+    padding-inline: 67px;
+  }
+  header .header_nav {
+    display: none;
+  }
+  header .burger_icon {
+    display: block;
+  }
+  .section1 {
+    padding-inline: 67px;
+    height: 498px;
+  }
+  .section2 {
+    padding: 80px 67px;
+  }
+  .section3 {
+    padding-inline: 67px;
+    margin-bottom: 80px;
+  }
+}
+@media (max-width: 500px) {
+  header {
+    padding-inline: 14px;
+  }
+  .section1 {
+    padding-inline: 14px;
+    height: 431px;
+  }
+  .section1 article h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .section article p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .section2 {
+    padding: 48px 14px;
+  }
+  .section3 {
+    padding-inline: 14px;
+    margin-bottom: 48px;
+  }
+  .section3_card_right {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .right_side_img {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
